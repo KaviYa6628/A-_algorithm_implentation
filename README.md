@@ -118,7 +118,7 @@ The path dynamically avoids obstacles and always finds the least-cost solution i
 |---------------------|--------------------|
 | Set Start Node      | Right-click        |
 | Set End Node        | Right-click        |
-| Place Obstacle      | Left-click         |
+| Place Obstacle      | Right-click        |
 | Remove Obstacle     | Left-click again   |
 | Start A* Algorithm  | Spacebar           |
 | Clear Grid          | C                  |
