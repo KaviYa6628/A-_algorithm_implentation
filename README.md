@@ -1,6 +1,6 @@
 # A* Pathfinding Algorithm Visualizer (Grid-based using Pygame)
 
-## 📘 A* Algorithm - Concept
+##  A* Algorithm - Concept
 
 The **A\*** (A-Star) algorithm is a powerful pathfinding and graph traversal technique used in many applications like games, robotics, and maps. It is widely known for its performance and accuracy because it combines features of Dijkstra’s Algorithm and Greedy Best-First Search.
 
@@ -18,7 +18,7 @@ By evaluating both the cost to reach a node and the estimated cost to get to the
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Interactive grid-based visualizer
 - Set start and end nodes with right-click
@@ -29,14 +29,14 @@ By evaluating both the cost to reach a node and the estimated cost to get to the
 
 ---
 
-## 📸 Demo
+##  Demo
 
-![A* Algorithm Demo](demo.gif)  
+![A* Algorithm Demo](output.png)  
 *(Add your own GIF or image named `demo.gif` in the repo to showcase visualization)*
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - [Pygame](https://www.pygame.org/news)
@@ -44,7 +44,7 @@ By evaluating both the cost to reach a node and the estimated cost to get to the
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Green Box** → Start Node (Right-click to place)
 2. **Orange Box** → End Node (Right-click to place)
@@ -56,7 +56,7 @@ By evaluating both the cost to reach a node and the estimated cost to get to the
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -71,11 +71,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-> 📌 Ensure you have Python 3.6 or above installed.
+>  Ensure you have Python 3.6 or above installed.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python main.py
@@ -85,7 +85,7 @@ This will launch a window with the grid. You can now interact with it using your
 
 ---
 
-## 🧪 Requirements
+##  Requirements
 
 - Python 3.6+
 - pygame
@@ -105,7 +105,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📝 Example Output
+##  Example Output
 
 After placing start and end nodes and some obstacles, the shortest path is calculated and shown as:
 
@@ -117,7 +117,7 @@ The path dynamically avoids obstacles and always finds the least-cost solution i
 
 ---
 
-## 📌 Controls Summary
+##  Controls Summary
 
 | Action              | Mouse / Keyboard   |
 |---------------------|--------------------|
@@ -130,13 +130,13 @@ The path dynamically avoids obstacles and always finds the least-cost solution i
 
 ---
 
-## 🤖 Algorithm Details
+##  Algorithm Details
 
 The **A\*** algorithm guarantees the shortest path if the heuristic is admissible (i.e., it never overestimates the cost to reach the goal). In this implementation, the **Manhattan Distance** is used as the heuristic because it's well-suited for grid-based movement.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
