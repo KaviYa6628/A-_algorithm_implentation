@@ -29,12 +29,7 @@ By evaluating both the cost to reach a node and the estimated cost to get to the
 
 ---
 
-##  Demo
 
-![A* Algorithm Demo](output.png)  
-*(Add your own GIF or image named `demo.gif` in the repo to showcase visualization)*
-
----
 
 ##  Technologies Used
 
